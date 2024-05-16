@@ -1,7 +1,8 @@
 {
     "message": "hello word",
-    "data": {
-        "animal": {
+    "data": [
+        {
+            "category": "Animal",
             "resource": [
                 "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2031.png",
                 "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2034.png",
@@ -10,19 +11,22 @@
                 "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2034.png",
                 "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2031.png"
             ]
-        },
-        "book": {
+        }, 
+        {
+            "category": "Book",
             "resource": [
                 "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2031.png",
                 "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2033.png",
                 "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2034.png"
             ]
         },
-        "Birthday": [
-            "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2034.png",
-            "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2033.png",
-            "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2031.png"
+         {
+            "category": "Birthday",
+            "resource": [
+                "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2034.png",
+                "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2033.png",
+                "https://raw.githubusercontent.com/khanhVu-ops/PictureResource/main/animal/Rectangle%2031.png"
+            ]
+         }
         ]
-        
-    }
 }
